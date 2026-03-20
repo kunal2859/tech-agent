@@ -2,7 +2,7 @@ name: Tech Agent
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour
+    - cron: "0 9 * * *"   # every hour
   workflow_dispatch:
 
 jobs:
